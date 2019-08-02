@@ -1,0 +1,68 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.digital</groupId>
+  <artifactId>api</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>api</name>
+  <url>http://maven.apache.org</url>
+  
+  <properties>
+  <allure.version>1.4.17</allure.version>
+   <suiteXmlFile>.testNG.xml</suiteXmlFile> 
+   <aspectj.version>1.8.5</aspectj.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+            <groupId>com.jayway.restassured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+ 
+        <dependency>
+            <groupId>com.jayway.restassured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+        
+        <dependency>
+			<groupId>org.testng</groupId >
+			<artifactId>testng</artifactId>
+			<version>6.8.5</version>
+		</dependency>
+		
+		<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>3.0.0</version>
+    <scope>test</scope>
+</dependency>
+		
+		
+		<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+	</dependency>
+ 
+  </dependencies>
+  
+  
+  <build>
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-surefire-plugin</artifactId>
+                            <version>2.19.1</version>                            
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+            </build>
+  
+  
+</project>

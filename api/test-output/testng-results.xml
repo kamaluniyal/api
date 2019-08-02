@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2519" started-at="2019-07-03T08:48:20Z" finished-at="2019-07-03T08:48:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2519" started-at="2019-07-03T08:48:20Z" finished-at="2019-07-03T08:48:22Z">
+      <class name="com.digital.api.jira.JiraApiTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.digital.api.jira.JiraApiTest@29ee9faa]" name="setup" is-config="true" duration-ms="482" started-at="2019-07-03T14:18:20Z" finished-at="2019-07-03T14:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="T03_getResponse2()[pri:0, instance:com.digital.api.jira.JiraApiTest@29ee9faa]" name="T03_getResponse2" duration-ms="2025" started-at="2019-07-03T14:18:20Z" finished-at="2019-07-03T14:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T03_getResponse2 -->
+      </class> <!-- com.digital.api.jira.JiraApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

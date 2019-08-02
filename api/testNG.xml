@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MemailTestAutomation" parallel="classes"
+	thread-count="7">
+
+	<test name="MemailTestAutomation">
+		<classes>
+			
+			<class name="com.qa.automation.tests.LoginTest" />
+			<!--
+			<class name="com.qa.automation.tests.SearchTest" />
+			 
+			<class name="com.qa.automation.tests.DashboardTest" />
+			<class name="com.qa.automation.tests.ManageAccountTest" />
+			<class name="com.qa.automation.tests.UpdateRecoveryEmailTest" />
+			<class name="com.qa.automation.tests.VerifyAccountTest" />
+			<class name="com.qa.automation.tests.RegistrationTest" />
+			-->
+			
+
+
+		</classes>
+	</test>
+
+</suite>
